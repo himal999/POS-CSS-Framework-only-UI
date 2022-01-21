@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/boostrap/css/bootstrap.min.css">
+</head>
+<body>
+<header>
+
+</header>
+<main>
+    <section class="row">
+      <nav class="bg-primary mt-5 col col-sm-3 col-md-3 col-lg-2 col-xl-2 col-xxl-2  ">
+        <h3 class="display-5 text-center">ITEMS</h3>
+        <ul class="nav flex-column">
+           <li class="nav-item"><a class="text-white nav-link" href="#">Dashboard</a></li>
+           <li class="nav-item"><a class="text-white nav-link" href="#">Add Item</a></li>
+           <li class="nav-item"><a class="text-white nav-link" href="#">Update Item</a></li>
+           <li class="nav-item"><a class="text-white nav-link" href="#">Delete Item</a></li>
+           <li class="nav-item"><a class="text-white nav-link" href="#">View Item</a></li>
+        </ul>
+    </nav>
+      <section class="mt-5 col border border-dark border-4">
+          <div class="shadow-lg p-3 mb-5 bg-dark bg-white rounded mt-2">
+            <h2 class="text-center text-black">ADD ITEM</h2>
+          </div>
+        
+       <form class="mt-5" action="" method="post">
+            <ul>
+                <li>
+                    <label for="itemName">Item Name :</label>
+                    <input type="text">
+                </li>
+              
+                <li class="mt-4">
+                    <lable for="itemCategory">Item Category :</lable>
+                    <select >
+                        <option value="laptop">Laptop</option>
+                        <option value="desktop">Desktop</option>
+                    </select>
+                </li>
+                <li class="mt-4">
+                    <label for="brandName">Brand Name :</label>
+                    <input type="text">
+                </li> 
+                <li class="mt-4">
+                    <label for="modelNumber">Model Number :</label>
+                    <input type="text">
+                </li>
+                <li class="mt-4">
+                    <label for="price">Price($) :</label>
+                    <input type="text"><span> . </h2></span>
+                    <input class="mt-2"type="text">
+                </li>
+                <li class="mt-4">
+                    <label for="size">Size(mm) :</label>
+                    <input type="text"><span> x </span>
+                    <input class="mt-2"type="text"><span> x </span>
+                    <input class="mt-2"type="text">
+                </li>
+              
+            </ul>
+            
+            <section class="mt-5">
+                <button type="reset">Cancel</button>
+                <button class="btn-danger" type="submit">Submit</button>
+           </section>
+       </form>
+    </section>
+    </section>
+
+<!--new-->
+<section class="row">
+    <aside class="bg-primary col"></aside>
+    <section class=""></section>
+</section>
+
+
+</main>
+</body>
+</html>
