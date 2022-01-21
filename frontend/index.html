@@ -12,9 +12,9 @@
 
 </header>
 <main>
-    <section class="row">
+    <section class="row container-fluid">
       <nav class="bg-primary mt-5 col col-sm-3 col-md-3 col-lg-2 col-xl-2 col-xxl-2  ">
-        <h3 class="display-5 text-center">ITEMS</h3>
+        <h3 class="display-5 text-center mt-4">ITEMS</h3>
         <ul class="nav flex-column">
            <li class="nav-item"><a class="text-white nav-link" href="#">Dashboard</a></li>
            <li class="nav-item"><a class="text-white nav-link" href="#">Add Item</a></li>
@@ -23,50 +23,57 @@
            <li class="nav-item"><a class="text-white nav-link" href="#">View Item</a></li>
         </ul>
     </nav>
-      <section class="mt-5 col border border-dark border-4">
+      <section class="mt-5 col border-top border-bottom border-dark border-2">
           <div class="shadow-lg p-3 mb-5 bg-dark bg-white rounded mt-2">
             <h2 class="text-center text-black">ADD ITEM</h2>
           </div>
         
        <form class="mt-5" action="" method="post">
             <ul>
+                <div class="row align-items-center pt-1 pb-1">
                 <li>
                     <label for="itemName">Item Name :</label>
-                    <input type="text">
+                    <input class="ms-5" size="67" type="text">
                 </li>
+                </div>
               
-                <li class="mt-4">
+                <div class="row ">
+                <li class="mt-4 col-4">
                     <lable for="itemCategory">Item Category :</lable>
-                    <select >
+                    <select class="ms-4" >
                         <option value="laptop">Laptop</option>
                         <option value="desktop">Desktop</option>
                     </select>
                 </li>
-                <li class="mt-4">
-                    <label for="brandName">Brand Name :</label>
-                    <input type="text">
-                </li> 
-                <li class="mt-4">
+                <li class="mt-4 col">
+                    <label class=""for="brandName">Brand Name :</label>
+                    <input class="ms-3" type="text">
+                </li>
+                </div> 
+                <div class="row ">
+                <li class="mt-4 col-4">
                     <label for="modelNumber">Model Number :</label>
-                    <input type="text">
+                    <input class="ms-3" size="12" type="text">
                 </li>
-                <li class="mt-4">
+                <li class="mt-4 col">
                     <label for="price">Price($) :</label>
-                    <input type="text"><span> . </h2></span>
-                    <input class="mt-2"type="text">
+                    <input class="ms-5" type="text" size="12"><span> . </h2></span>
+                    <input class="mt-2"type="text" size="1">
                 </li>
-                <li class="mt-4">
-                    <label for="size">Size(mm) :</label>
-                    <input type="text"><span> x </span>
-                    <input class="mt-2"type="text"><span> x </span>
-                    <input class="mt-2"type="text">
+                </div>
+                <div class=" row">
+                <li class="mt-4 ">
+                    <label for="size">Size  (mm/cm) :</label>
+                    <input class="ms-4" size="1" type="text"><span> x </span>
+                    <input size="1" class="mt-2"type="text"><span> x </span>
+                    <input size="1" class="mt-2"type="text">
                 </li>
-              
+                </div>
             </ul>
             
-            <section class="mt-5">
-                <button type="reset">Cancel</button>
-                <button class="btn-danger" type="submit">Submit</button>
+            <section class="mt-5  text-end mb-4 me-5">
+                <button class="btn btn-outline-danger me-4" type="reset">Cancel</button>
+                <button class="btn btn-primary" type="submit">Submit</button>
            </section>
        </form>
     </section>
