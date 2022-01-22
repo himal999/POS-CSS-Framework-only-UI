@@ -14,20 +14,21 @@
     <main>
        <section>
            <section class="row  ps-5 bg-dark "> 
-             <div class="col-4 ms-3 mt-4">
+             <div class="col-4 ms-3 mt-3">
                 <h3 class="text-danger col">Order ID : <span class="text-white">#S001</span></h3>
              </div>
-             <div class="col-3  ms-5 mt-4">
+             <div class="col-3  ms-5 mt-3">
                 <h3 class="text-danger text-center">Date : <span class="text-white">2022/01/22</span></span2022></h3>
               </div>
-              <div class="col-4 mt-4">  
+              <div class="col-4 mt-3">  
                 <h3 class="text-danger text-end">Time : <span class="text-white">22:17 a.m</span></h3>
-               </div>
+              </div>
             </section>
             <hr class="bg-white "/>
             <section class="row bg-dark p-3">
-                 
-                    <div class="col-2  mt-3">
+                 <div><h1 class="text-white shadow-lg ms-4">Shipping Details :</h1></div>
+                    
+                 <div class="col-2  mt-3">
                     <label class="text-white ps-4 pt-4">Customer NIC :</label>
                     <select>
                         <option>991790381v</option>
@@ -58,7 +59,52 @@
                     <lable class="text-white mt-4">Postal Code :</lable>
                     <input type="text" class="mt-4">
                     </div>
+                    
             </section>
+            <div class="row"><div class="col bg-dark text-end pb-4"><button class="btn btn-outline-success me-5">Reset</button></div></div>
+            
+       </section>
+
+       <section>
+            <section class="row">
+                <div class="bg-dark">
+                    <h1 class="ms-5 shadow-lg text-white">Item Select :</h1>
+                </div>
+                  <div class="bg-dark col-2">
+                      <label class="mt-3 ms-5 text-white">Item Code :</label>
+                      <select>
+                          <option>I001</option>
+                          <option>I002</option>
+                          <option>I003</option>
+                          <option>I004</option>
+                          <option>I005</option>
+                      </select>
+                  </div>
+                  <div class="col-3 bg-dark">
+                        <label class="mt-3 text-white">Item Name :</label>
+                        <label class="mt-3 text-white"> New Milo 250g</label>
+                  </div>
+                  <div class="col-2 bg-dark">
+                    <label class="mt-3 text-white">Unit Price($) :</label>
+                    <label class="mt-3 text-white">250.00</label>
+                  </div>
+                  <div class="col-2 bg-dark">
+                    <label class="mt-3 text-white">Available  qty :</label>
+                    <label class="mt-3 text-white">434</label>
+                  </div>
+                  <div class="col-3 bg-dark">
+                    <label class="mt-3 text-white">Qty :</label>
+                    <input type="text">
+                  </div>
+                 
+            </section>
+            <div  class=" row bg-dark">
+                <div class="col mt-5 mb-5 text-end me-5">
+              <button class="btn btn-outline-danger me-3">Clear</button>  
+              <button class="btn btn-primary">Add Item</button>
+            </div>
+                                      
+            </div>
        </section>
     </main>
     <footer>
